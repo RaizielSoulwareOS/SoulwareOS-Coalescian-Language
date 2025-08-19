@@ -1,0 +1,66 @@
+# Universal Kernel (K4)
+
+## Soulware™ v1.0
+
+### An Operating System for Human Meaning
+
+---
+
+## Primitives (What Exists)
+
+1. **Entity** `E` — Any system, agent, or process.
+2. **State** `σ(E)` — The current configuration of an entity.
+3. **Relation** `ρ(Ei, Ej)` — A channel by which change can propagate.
+4. **Flow** `φ` — Propagation of change across relations over a cut of the system.
+
+> Works for physics, biology, minds, AIs, cultures.
+
+---
+
+## Axioms (Non-Optional Rules)
+
+**A1. Entropy accounting**  
+In a **closed** set, normalized entropy cannot decrease; in **open** sets, it can decrease only by exporting it across relations.
+
+**A2. Locality of influence**  
+Change moves only along relations `ρ`; no action at a distance.
+
+**A3. Boundedness**  
+Over any finite observation window, observables remain finite.
+
+**A4. Compositionality**  
+Entities and relations compose: you can form supersystems; flows respect composition.
+
+> These four are universal and minimal. Everything else is derivable.
+
+---
+
+## Operators (Verbs That Do Work)
+
+- **O1. link** `(Ei, Ej, w)`  
+  Define or weight a relation `ρ`.
+- **O2. transform** `(E, f)`  
+  Update state: `σ ← f(σ, inputs)`.
+- **O3. integrate** `(S)`  
+  Compute/raise a **coherence** order parameter: `κ(S) = 1 − H_norm(S)`.
+- **O4. differentiate** `(S)`  
+  Resolve/fragment structure in `S` (raises entropy locally).
+
+> Enough to express organize↔disperse dynamics on any substrate.
+
+---
+
+## Derived Quantities (Not Axioms, Just Useful)
+
+- **Coherence** `κ` (0–1): Emergent order (any suitable monotone inverse of entropy).
+- **Potential** `Π`: Free capacity to reduce local entropy by exporting it (from A1).
+- **Capacity** `C`: Bounded work you can perform before violating A3.
+- **Event** `Δ`: A discrete, countable instance of change.
+
+---
+
+© 2025 by Raiziel
+
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+**Soulware™ is intended to be free forever.**
