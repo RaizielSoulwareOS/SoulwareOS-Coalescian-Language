@@ -17,10 +17,10 @@ SoulwareOS uses a simple, flexible language for mapping systems and relationship
 ```
 ## Primitives (what exists)
 
-1. **Entity** `E` — any system/agent/process.
-2. **State** `σ(E)` — the current configuration of an entity.
-3. **Relation** `ρ(Ei,Ej)` — a channel by which change can propagate.
-4. **Flow** `φ` — propagation of change across relations over a cut of the system.
+1. Entity `E` — any system/agent/process.
+2. State `σ(E)` — the current configuration of an entity.
+3. Relation `ρ(Ei,Ej)` — a channel by which change can propagate.
+4. Flow `φ` — propagation of change across relations over a cut of the system.
 ```
 
 *(This is a rough preview—language details will evolve! See [LANGUAGE.md](LANGUAGE.md) for more.)*
