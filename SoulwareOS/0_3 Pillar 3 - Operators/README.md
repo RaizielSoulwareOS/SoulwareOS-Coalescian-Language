@@ -20,3 +20,13 @@ This pillar provides the **master list of all core operators** in SoulwareOS.
 They are grouped into **8 primary classes** based on their function.
 
 ---
+
+© 2025 by Raiziel
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
+
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
+
