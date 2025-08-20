@@ -101,6 +101,7 @@ An event is any discrete, countable instance of a state change. It is the fundam
   * **In a relationship:** A conversation is a series of `Events` that change the shared state.
 * **Measurement:** `Events` are measured by observing a change in a system's state or relations. This could be a new `link` formed, a `state` updated, or a rise in `Coherence`.
 
+---
 
 © 2025 by Raiziel
 
