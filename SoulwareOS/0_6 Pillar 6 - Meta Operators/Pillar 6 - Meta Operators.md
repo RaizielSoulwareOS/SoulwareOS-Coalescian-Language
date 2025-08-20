@@ -84,3 +84,14 @@ Meta-Operators are the foundational tools for consciously evolving, maintaining,
 > **Meta-Operators are the toolkit for conscious evolution. They keep SoulwareOS alive, resilient, and worthy of trust—no matter how the world changes.**
 
 ---
+
+© 2025 by Raiziel
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
+
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
+
+
