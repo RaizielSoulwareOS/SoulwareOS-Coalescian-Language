@@ -45,8 +45,9 @@ They’re enough to express organize↔disperse dynamics on any substrate.
 
 © 2025 by Raiziel
 
-This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
 
-**Soulware™ is intended to be free forever.**
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
