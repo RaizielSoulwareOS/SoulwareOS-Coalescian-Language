@@ -28,3 +28,13 @@ This ensures that SoulwareOS remains not just stable, but **resilient, flexible,
 **They are the tools that let the system grow, heal, and adapt—without losing its essence.**
 
 ---
+
+© 2025 by Raiziel
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
+
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
+
