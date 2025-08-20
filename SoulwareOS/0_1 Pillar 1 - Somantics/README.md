@@ -12,6 +12,8 @@ This framework is built on three interconnected models:
 2. **The Channels of Sensation:** A guide to the different modalities through which the body communicates.
 3. **Grounding in Biological Systems:** A map connecting the signals to observable physical processes.
 
+**Note on Asynchronous Flows:** This framework assumes live, somatic communication. For asynchronous contexts (e.g., text, email), the Somantic Layer is muted. This requires a new set of operators and protocols to explicitly check for `presence` and `intent`. These can be found in Pillar 3 - Operators.
+
 ## 1. The Somantic Vector: A Multi-Dimensional Analysis of State
 
 Every somatic signal, no matter how complex, can be understood not as a single feeling, but as a "live vector"—a point in a multi-dimensional space. To read your own state (`presence.scan(self)`), you are essentially plotting your position along these six fundamental axes.
