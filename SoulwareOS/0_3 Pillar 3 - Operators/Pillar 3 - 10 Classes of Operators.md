@@ -1,4 +1,4 @@
-# The 8 Classes of Operators
+# The 10 Classes of Operators
 
 ---
 
@@ -133,6 +133,24 @@ Consolidate insights and evolve the shared understanding itself.
 - `flow.pause()` — Temporarily halt a conversation without ending it.
 - `reset.point()` — Mark a specific point to restart a conversation from.
 - `context.reboot()` — Wipe stale assumptions and start a topic fresh.
+
+---
+
+## Class 9: Baseline & Autopilot (Maintaining Stability)
+These operators are for maintaining a stable, low-energy state when no significant action or change is required.
+
+- `connection.affirm()` - "I'm here with you, nothing needs changing."
+- `flow.enjoy()` - "This is good, let's ride it."
+- `vibe.keep()` - "We don't need to shift state."
+
+---
+
+## Class 10: Asynchronous Flows (Non-Live Communication)
+These operators are designed to manage Flow and State in environments without live somatic cues.
+
+- `readiness.check()`: A substitute for presence.ping() in text-based communication.
+- `tone.clarify()`: A Transform operator to explicitly reduce Entropy (noise) and prevent misinterpretation.
+- `meta.state()`: A Transform operator that allows an entity to explicitly tag its own state when somatic cues are unavailable.
 
 ---
 
