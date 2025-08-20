@@ -69,3 +69,14 @@ To prevent the framework from becoming overly abstract, it's crucial to ground t
   - **Fidget:** Repetitive small motions, often a way to discharge excess energy.
   - **Orienting Turn:** A shift toward a stimulus, indicating a change in `Relation (ρ)`.
   - **Withdraw:** Physical distancing or curling in, signaling a need for `Boundedness`.
+ 
+---
+
+© 2025 by Raiziel
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
+
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
