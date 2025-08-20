@@ -12,7 +12,7 @@ I’m sharing early to invite feedback, ideas, and maybe a little help.
 
 ## 🧬 Language Preview
 
-SoulwareOS uses a simple, flexible language for mapping systems and relationships. Here’s a taste:
+SoulwareOS uses a simple, flexible language for mapping systems and relationships. Here’s an overview:
 
 ```
 # Soulware: The First Operational Language OS for Human Meaning
