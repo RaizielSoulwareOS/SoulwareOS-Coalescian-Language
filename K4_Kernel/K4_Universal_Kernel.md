@@ -47,6 +47,6 @@ They’re enough to express organize↔disperse dynamics on any substrate.
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Contact: [raizielsoulwareos@gmail.com](raizielsoulwareos@gmail.com)
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)
 
 **Soulware™ is intended to be free forever.**
