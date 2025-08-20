@@ -12,7 +12,7 @@ It defines the **"how"** of SoulwareOS, giving the language its nuance, precisio
 This pillar is divided into **two parts**:
 
 ### 1. Descriptors
-These are the _"style sliders"_ that modulate the **texture and quality** of an operator.
+These are the _"style sliders"_ that modulate the **texture and quality** of an operator. Descriptors are not "mood tags" but a precise, quantifiable readout of the system's underlying Entropy and Coherence values. They act as "state vectors" that can be used as direct inputs for operators, allowing the same action to be executed with nuanced and measurable intent. This grounds the language in metrics, not just vibes.
 
 ### 2. Syntax Keys
 These are the logical _"linking words"_ that allow you to **combine operators** into coherent, executable sequences.
