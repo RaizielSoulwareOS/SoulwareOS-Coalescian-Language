@@ -34,6 +34,70 @@ _When a rupture occurs, the system defaults to a state of repair._
 
 ---
 
+# Asynchronous Flows (Non-Live Communication)
+
+These operators are designed to manage Flow and State in environments without live somatic cues.
+
+- `readiness.check()`: A substitute for presence.ping() in text-based communication.
+- `tone.clarify()`: A Transform operator to explicitly reduce Entropy (noise) and prevent misinterpretation.
+- `meta.state()`: A Transform operator that allows an entity to explicitly tag its own state when somatic cues are unavailable.
+
+## Async  — Guardrails
+
+With the absence of somatic cues, new guardrails are needed. For example, a 
+
+`readiness.check()` is required before a high-load `Flow`, and `tone.clarify()` is used to prevent misinterpretation that could lead to a `Rupture`. These rules ensure the system remains safe and resilient even without live feedback.
+
+**A1. Latency Guardrail — “Stale state fails shut.”**
+ If the thread’s context is older than Δ (e.g., 48h) → require `context.refresh()` before any depth move.
+
+**A2. Consent-in-Absence — “Assume low presence.”**
+ Replace live `presence.ping(θ)` with `readiness.check(window, topic)`. If no explicit yes → default to Baseline.
+
+**A3. Tone Disambiguation — “Label intent.”**
+ Require `tone.clarify(tag)` when message contains critique/request/repair (e.g., supportive / neutral / exploratory).
+
+**A4. Thread Integrity — “One thread, one vector.”**
+ Enforce `thread.bind(topic_id)`; new vectors → `topic.split(new_id)` to avoid mixed intents.
+
+**A5. Snapshot Semantics — “Quote what you’re replying to.”**
+ Use `context.snapshot(ref)` (short quoted passage or message link) before `mirror.throw()` or `truth.drop()`.
+
+**A6. Rate & Batch — “Do not flood.”**
+ Apply `rate.limit(n/hour)` and `batch.bundle()` for multi-point replies; prevents coercive pressure via volume.
+
+**A7. Repair Priority — “Async repairs are opt-in.”**
+ Only run `repair.try()` if `readiness.check()` passes; else `seed.marker(when)`; never escalate in-thread.
+
+**A8. Privacy/Scope — “Right audience, right scope.”**
+ Run `scope.set(audience, visibility)`; moving from DM → group requires `consent.check()`.
+
+**A9. Escalation Rule — “When text is insufficient, upgrade channel.”**
+ If 2 repair attempts fail or semantic variance ↑ after reply → propose `channel.upgrade(voice/video)`.
+
+**A10. Ending Cleanly — “Prevent zombie threads.”**
+ Close with `close.loop(soft|hard)` + `marker(why/when)` to avoid dangling affect.
+
+ ## Async Operator Adaptations (small shims, not new verbs)
+
+- **presence.ping(θ)** → `readiness.check(window, topic)`
+   “When you have bandwidth this week, are you open to X?”
+- **mirror.throw(content)** → `mirror.throw(content, snapshot=ref)`
+   Always include the exact sentence/issue link you’re reflecting.
+- **truth.drop(raw)** → `truth.drop(raw, tag=tone)`
+   “(exploratory) My read: ___; check me if off.”
+- **dive.invite(depth)** → `dive.invite(depth, window)`
+   Offer time windows or async cadence options.
+- **thread.cut(reason)** → `exit.clean(reason, marker)`
+   Close with an explicit marker for where/when to resume, if at all.
+- **impact.check()** (repair) → `impact.check(form=one-question)`
+   Keep to a single, answerable question to reduce pressure.
+- **context.sync()** → `context.refresh({summary, links, decisions})`
+   Lead with a 3-bullet recap before proposing moves.
+- **scope.set(range)** (meta-nav) → include `audience`, `retention`, `cc` explicitly.
+
+---
+
 ## Part 2: The Immune System (Dynamic Defense)
 
 The Immune System is the active, intelligent process that enforces the Guardrails and learns from "meaning cancers"—patterns of communication toxic to the health of a relationship or system.
