@@ -32,69 +32,6 @@ _When a rupture occurs, the system defaults to a state of repair._
 - **Rule:** A `rupture.name()` event should be immediately followed by an `impact.check()` and an offer to `repair.try`.
 - **K4 Root:** Restores Coherence (κ) after a `differentiate(S)` event has introduced Entropy into a Relation (ρ).
 
----
-
-# Asynchronous Flows (Non-Live Communication)
-
-These operators are designed to manage Flow and State in environments without live somatic cues.
-
-- `readiness.check()`: A substitute for presence.ping() in text-based communication.
-- `tone.clarify()`: A Transform operator to explicitly reduce Entropy (noise) and prevent misinterpretation.
-- `meta.state()`: A Transform operator that allows an entity to explicitly tag its own state when somatic cues are unavailable.
-
-## Async  — Guardrails
-
-With the absence of somatic cues, new guardrails are needed. For example, a 
-
-`readiness.check()` is required before a high-load `Flow`, and `tone.clarify()` is used to prevent misinterpretation that could lead to a `Rupture`. These rules ensure the system remains safe and resilient even without live feedback.
-
-**A1. Latency Guardrail — “Stale state fails shut.”**
- If the thread’s context is older than Δ (e.g., 48h) → require `context.refresh()` before any depth move.
-
-**A2. Consent-in-Absence — “Assume low presence.”**
- Replace live `presence.ping(θ)` with `readiness.check(window, topic)`. If no explicit yes → default to Baseline.
-
-**A3. Tone Disambiguation — “Label intent.”**
- Require `tone.clarify(tag)` when message contains critique/request/repair (e.g., supportive / neutral / exploratory).
-
-**A4. Thread Integrity — “One thread, one vector.”**
- Enforce `thread.bind(topic_id)`; new vectors → `topic.split(new_id)` to avoid mixed intents.
-
-**A5. Snapshot Semantics — “Quote what you’re replying to.”**
- Use `context.snapshot(ref)` (short quoted passage or message link) before `mirror.throw()` or `truth.drop()`.
-
-**A6. Rate & Batch — “Do not flood.”**
- Apply `rate.limit(n/hour)` and `batch.bundle()` for multi-point replies; prevents coercive pressure via volume.
-
-**A7. Repair Priority — “Async repairs are opt-in.”**
- Only run `repair.try()` if `readiness.check()` passes; else `seed.marker(when)`; never escalate in-thread.
-
-**A8. Privacy/Scope — “Right audience, right scope.”**
- Run `scope.set(audience, visibility)`; moving from DM → group requires `consent.check()`.
-
-**A9. Escalation Rule — “When text is insufficient, upgrade channel.”**
- If 2 repair attempts fail or semantic variance ↑ after reply → propose `channel.upgrade(voice/video)`.
-
-**A10. Ending Cleanly — “Prevent zombie threads.”**
- Close with `close.loop(soft|hard)` + `marker(why/when)` to avoid dangling affect.
-
- ## Async Operator Adaptations (small shims, not new verbs)
-
-- **presence.ping(θ)** → `readiness.check(window, topic)`
-   “When you have bandwidth this week, are you open to X?”
-- **mirror.throw(content)** → `mirror.throw(content, snapshot=ref)`
-   Always include the exact sentence/issue link you’re reflecting.
-- **truth.drop(raw)** → `truth.drop(raw, tag=tone)`
-   “(exploratory) My read: ___; check me if off.”
-- **dive.invite(depth)** → `dive.invite(depth, window)`
-   Offer time windows or async cadence options.
-- **thread.cut(reason)** → `exit.clean(reason, marker)`
-   Close with an explicit marker for where/when to resume, if at all.
-- **impact.check()** (repair) → `impact.check(form=one-question)`
-   Keep to a single, answerable question to reduce pressure.
-- **context.sync()** → `context.refresh({summary, links, decisions})`
-   Lead with a 3-bullet recap before proposing moves.
-- **scope.set(range)** (meta-nav) → include `audience`, `retention`, `cc` explicitly.
 
 ---
 
@@ -278,6 +215,147 @@ This grid links the physics of the K4 Kernel to somantic cues, the dynamics they
 - **Operator(s):** `cohere.hold(ε)`, `pattern.embed()`  
 - **Mythic Frame:** "Two voices sing in unison"  
 - **Guardrail:** Confirm that alignment is genuine; avoid coercive agreement.
+
+---
+
+# Asynchronous Communication: Guardrails & Operators
+
+## Purpose & Core Principles
+
+This framework protects **clarity, consent, and pacing** in asynchronous channels where presence is fragmented and somatic cues are low-bandwidth.  
+It operates on these principles:
+
+- **Explicit Presence** over assumed attention
+- **Stamped Context** over vibe-guessing
+- **Consent to Depth** over sneaking escalation
+- **Thread Hygiene** over drift
+- **Repair by Summary** over re-litigation
+- **Bounded Expectations** over open loops
+
+---
+
+## The Default Envelope _(A Practical Starting Point)_
+
+To ensure clarity from the beginning, start important async messages with a simple, explicit envelope:
+
+```text
+[context.sync] Topic: <one-line topic>
+[readiness.check] OK to receive now? (Y/N/Later) • Preferred window: <range>
+[expectation.set] I expect to reply by <timezone/time>.
+[tone.clarify] Intent: <supportive / neutral / exploratory / decision-seeking>
+```
+
+_In ultra-casual contexts, this can be collapsed:_  
+`Topic X • ok to receive now? I can reply by ~Tue 5p NZT (supportive).`
+
+---
+
+## Key Async Operator Adaptations
+
+These operators manage flow and state where live feedback is rare. They are shims on core verbs, not entirely new operators.
+
+| Operator | Description |
+| -------- | ----------- |
+| **presence.ping(θ) → readiness.check(window, topic)** | Substitute for live presence check: “When you have bandwidth this week, are you open to X?” |
+| **tone.clarify(intent)** | Explicitly reduce noise: “Intent: supportive / neutral / probing / decision” |
+| **meta.state()** | Tag your own state when somatic cues aren’t available |
+| **context.sync(topic, scope) → context.refresh({summary, links, decisions})** | Lead with a 3-bullet recap before proposing new moves. Scope can be `[DECIDE]`, `[INFO]`, `[BRAINSTORM]`, or `[REPAIR]`. |
+| **consent.check(depth)** | “Can we go <light / medium / deep> on this thread?” |
+| **mirror.throw(content) → mirror.throw(content, snapshot=ref)** | Always include the exact sentence or issue link you’re reflecting |
+| **impact.check() → impact.check(form=one-question)** | “How did this land on your side?” |
+| **repair.try(summary)** | Recap thread in bullet points and ask for corrections |
+| **expectation.set(eta, channel)** | Declare your response timeline: “Reply by <time> on <channel>” |
+| **seed.marker(when/how)** | Park a topic and set a clear re-entry point |
+| **thread.cut(reason) → exit.clean(reason, marker)** | Cleanly close a thread with an explicit marker |
+| **close.loop(type)** | Formally close a thread: “Closed (soft). Re-enter if <condition>” |
+
+---
+
+## The 10 Async Guardrails
+
+> **In the absence of somatic cues, these guardrails keep async safe and resilient:**
+
+1. **Latency Guardrail:**  
+   If a thread’s context is older than e.g. 48h, require `context.refresh()` before any depth move.
+2. **Consent-in-Absence:**  
+   Assume low presence. Replace live pings with `readiness.check(window, topic)`. If no explicit "yes" is received, default to Baseline Profile.
+3. **Tone Disambiguation:**  
+   Require `tone.clarify(tag)` for critique, requests, or repairs.
+4. **Thread Integrity:**  
+   One topic per thread. New topics = new threads.
+5. **Snapshot Semantics:**  
+   Use a `context.snapshot()` (short quote or link) before `mirror.throw()` or `truth.drop()`.
+6. **Rate & Batch:**  
+   Don’t flood a channel. Rate limit and bundle multiple points in one reply.
+7. **Repair Priority:**  
+   Repairs (`repair.try()`) must be opt-in. Only run if `readiness.check()` passes; else, use `seed.marker(when)`.
+8. **Privacy/Scope:**  
+   Run `scope.set(audience, visibility)`. Moving from private to group requires `consent.check()`.
+9. **Escalation Rule:**  
+   If two repair attempts fail or ambiguity increases, propose `channel.upgrade(voice/video)`.
+10. **Ending Cleanly:**  
+    Prevent “zombie threads” with `close.loop(soft|hard)` and a marker for why/when to reopen.
+
+---
+
+## Practical Tools & Templates
+
+### Minimal Day-One Async Kit
+
+- `readiness.check(window)`
+- `context.sync(topic, scope)`
+- `consent.check(depth)`
+- `expectation.set(eta, channel)`
+- `repair.try(summary)`
+
+---
+
+### Templates
+
+#### 1) Kickoff (Decision)
+
+```text
+[context.sync] Topic: Vendor shortlist • Scope: DECIDE
+[readiness.check] OK to receive today 2–6p NZT?
+[expectation.set] I’ll reply by Wed 10a NZT.
+[tone.clarify] Intent: neutral, decision-seeking.
+
+Question: prefer A or B?
+```
+
+#### 2) Repair (After Misfire)
+
+```text
+[repair.try] Quick recap of the thread so far.
+[mirror.throw] My read: the timing felt tight + my note landed sharp. True?
+[impact.check] How did this land?
+[consent.check] OK to go medium depth to resolve this async?
+```
+
+#### 3) Close Cleanly
+
+```text
+[thread.cut] Closing this thread: decision was made in the meeting.
+[close.loop] Closed (soft).
+[seed.marker] If requirements change, we can reopen this.
+```
+
+---
+
+## Handling Failures
+
+- **Ghosting:**  
+  If a response is past its expected time, send one `seed.marker` and then stop.
+- **Scope Creep:**  
+  Reply with `context.sync` and ask to retag or split the thread.
+- **Wall-of-Text:**  
+  Use `repair.try(summary)` to distill the message into key points before responding.
+- **Ambiguous Tone:**  
+  Use `tone.clarify` to state your own intent and gently invite theirs.
+
+---
+
+> _For more templates and adaptations, see the project wiki or contribute your own!_
 
 ---
 
