@@ -25,7 +25,7 @@ It grew from three intertwined roots:
 Together, they form a fractal framework:  
 The same rules describe the inner life of a mind, the dynamics of a relationship, the behavior of an organization, and even the evolution of galaxies.
 
-> Fundamental, Interdependant Evolution. - Coalesciance.
+> *Coalesciance* - Fundamental, Interdependant Evolution.
 
 ---
 
