@@ -7,7 +7,7 @@
 ## 🚧 Work In Progress
 
 This project is just getting started!  
-Right now, things are rough, incomplete, and subject to major change.  
+Right now, things are rough, incomplete, and subject to change.  
 I’m sharing early to invite feedback, ideas, and maybe a little help.
 
 ## 🧬 Language Preview
