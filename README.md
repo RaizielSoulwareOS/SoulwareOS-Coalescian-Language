@@ -18,7 +18,7 @@ I’m sharing early to invite feedback, ideas, and maybe a little help.
 **SoulwareOS** is not just a language. It’s a living operating system for meaning, relation, and transformation.  
 It grew from three intertwined roots:
 
-- **RET (Relational Entropy Theory):** A mathematical frame for how order and entropy interact.
+- **RET (Relational Emergence Theory):** A mathematical frame for how order and entropy interact.
 - **K4 Kernel:** Four universal primitives, four axioms, and four operators that describe change at any scale.
 - **Soulware Language:** A practical, executable grammar that turns communication into live algorithms of trust, repair, and coherence.
 
