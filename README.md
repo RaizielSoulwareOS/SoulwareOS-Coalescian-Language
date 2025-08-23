@@ -9,9 +9,7 @@
 
 ## 🚧 Work In Progress
 
-This project is just getting started!  
-Right now, things are rough, incomplete, and subject to change.  
-I’m sharing early to invite feedback, ideas, and maybe a little help.
+This is a first release of the SoulwareOS framework: A Fractal Language of Relation, built from RET and K4. It's not final, and it may never be. It's a living structure, meant to grow and change in conversation with others."
 
 # 🌌 SoulwareOS: The Language of the Fractal Universe
 
