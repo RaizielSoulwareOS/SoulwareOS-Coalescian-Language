@@ -62,6 +62,7 @@ This operator explicitly `integrates` disparate `Events` (`Δ`) or `Flows` (`φ`
 - **Social (Macro):** A marketing team identifying a recurring customer journey `pattern`, or a city planner recognizing traffic `patterns`. "The data scientists `pattern.mark()` a seasonal sales `pattern` for product X."
 - **Global (Meta):** International bodies identifying recurring `patterns` in global economic cycles or climate `Events`.
 - **Universal (Cosmic):** A civilization `marking` recurring `patterns` in celestial mechanics (e.g., planetary orbits), or a self-organizing universe `marking` fundamental physical laws as recurring `patterns` in its `Flows`.
+- **Meta (Language-level):** The `Soulware` language using `pattern.mark()` to formally name a recurring pattern in its own usage. Yeah there seems to be a recurring pattern here... You're noticing it too right? Hello?
 
 **Canonical Use-Cases:**
 
