@@ -123,7 +123,7 @@ Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
 
 
 > ***"Language is the house of being. In its home humans dwell. Those who think and those who create with words are the guardians of this home."***
--Heidegger.
+- Heidegger.
 They're on tour inside your mind. Sold out forever.
 
 -----
