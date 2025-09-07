@@ -169,13 +169,3 @@ The framework suggests that the universe is not a collection of things observing
 ------
 
 *This document presents theoretical speculation aimed at conceptual unification rather than established scientific results. All ideas should be considered preliminary and subject to rigorous mathematical development and empirical testing.*
-
-## License
-
-This repository and all associated materials are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
----
-
-*For questions, collaboration, or bug reports, please contact [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com).*
-
-Website: [https://returntoreality.carrd.co](https//returntoreality.carrd.co)

@@ -61,7 +61,7 @@ Soulware’s core is the **K4 Universal Kernel**—a minimal, fractal foundation
 ## Why K4?
 
 These four primitives, axioms, and operators are enough to model **any system that grows, learns, relates, or self-heals**—from atomic to cosmic, individual to societal. Everything else is derivable from these minimal moves.
-
+ 
 ---
 
 © 2025 by Raiziel

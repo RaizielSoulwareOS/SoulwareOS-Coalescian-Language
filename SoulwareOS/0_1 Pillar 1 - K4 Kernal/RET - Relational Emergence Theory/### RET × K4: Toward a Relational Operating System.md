@@ -94,14 +94,14 @@ Export to Sheets
 - `RET` is the physics substrate: energy = relation, spacetime = network geometry.
 - `K4` is the operating grammar: how to name, move, and repair those networks.
 - **Together**, they form a Relational Operating System (ROS) — bridging physics, cognition, and governance.
-
+ 
 ---
 
-© 2025 Thomas Dunphy
+© 2025 by Raiziel
 
-Licensed under CC BY-NC-SA 4.0.
-Contact: raizielsoulwareos@gmail.com
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Website: https://returntoreality.carrd.co
+Contact: [raizielsoulwareos@gmail.com](mailto:raizielsoulwareos@gmail.com)  
+Website: [https://returntoreality.carrd.co](https://returntoreality.carrd.co)
 
-Commercial use is not permitted without explicit permission.
+**Soulware™ is intended to be free forever. Commercial use is not permitted without explicit permission.**
