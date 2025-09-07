@@ -1,99 +1,198 @@
-# Part 1: Descriptors (The Style of Action)
+## Pillar 4: Syntax, Modifiers, & Profiles
 
-**Descriptors** are modifiers that change the _feel_ of an operator without changing its core function.  
-They are driven by the **Somatic Layer**—the body's state informs the appropriate style. Think of these as sliders you can adjust to match the context.
+## Introduction
+
+Soulware’s power comes alive in its syntax—the grammar for composing, chaining, and tracking operator moves.
+Layer 4 gives clear, minimal rules for writing, modifying, and adapting operators, plus tools for creating profiles that tune system response to different agents, groups, or contexts.
+
+------
+
+## 1. Core Syntax Patterns
+
+Operators are called using **subject.verb(args)** or **verb.subject(args)**—expressive and receptive polarity.
+
+- Standard formats:
+  - Express: `stance.declare("I’m here for repair.")`
+  - Receive: `declare.stance("received")`
+  - Async: `presence.check(channel: async, eta: Tue 10a)`
+- Chaining:
+  - Multiple moves in sequence:
+    `consent.ask().sync.readiness().repair.try()`
+- Nesting:
+  - Operators as arguments:
+    `repair.try(intent.verify("is this honest?"))`
+- Aliasing:
+  - Shortcuts for common operators:
+    `ping` (for `presence.check()`), `rest` (for `pause.offer()`)
+
+------
+
+## 2. Modifiers: Shaping Operator Dynamics
+
+Modifiers are keywords or argument flags that adjust operator “flavor.”
+
+- Examples:
+  - Duration/Window: `pause.offer(5min)`
+  - Intensity: `sync.readiness(level: high)`
+  - Scope: `context.sync(scope: group)`
+  - Feedback/closure: `repair.try(callback: reflect.meta())`
+- Special tags for edge cases or meta:
+  - `boundary.hold(strict)` vs. `boundary.hold(soft)`
+  - `loop.close(silent)` vs. `loop.close(alert)`
+  - `consent.ask(conditional)`
+
+**Modifiers let one canonical operator work flexibly in any situation.**
+
+------
+
+## 3. Profiles: Contextualizing Operators
+
+Profiles are custom “views” specifying how Soulware’s language/behavior adapts to user roles, groups, contexts, or ecosystems.
+
+- **Individual**:
+  - `profile.user1:`
+    Defaults: `readiness.sync(level: low)`, `pause.offer(5min)`
+- **Group**:
+  - `profile.team:`
+    Protocol: `context.sync(scope: group, frequency: weekly)`
+    Modifiers: `boundary.hold(strict)`, `thread.cut(on conflict)`
+- **Situation (ritual, repair, governance):**
+  - `profile.ritual:`
+    Sequenced protocol:
+    - `stance.declare()`
+    - `intent.verify()`
+    - `repair.try()`
+
+Profiles are defined as dictionaries or config lists, then called to inform which operators are run, how, and with what modifiers.
+
+------
+
+## 4. Example Section: Real-World Compositions
+
+Sample “moves” for common scenarios—showing combos of syntax, modifiers, and profiles in action.
+
+| Context         | Syntax Call                                        | Outcome                                     |
+| :-------------- | :------------------------------------------------- | :------------------------------------------ |
+| Check-in Ritual | `profile.team: stance.declare().pause.offer()`     | Group opens, checks readiness, offers pause |
+| Energy Audit    | `energy.scan(level: all).repair.try()`             | System checks energy, initiates repair      |
+| Async Exit      | `exit.clean(channel: async, eta: tonight)`         | System processes clean async closure        |
+| Personal Pause  | `profile.user1: pause.offer(10min, style: silent)` | Offers soft, time-bound pause               |
+
+------
+
+## 5. Parallel Processing & Await States (`@` Marker)
+
+## Overview
+
+Soulware protocols often require gathering multiple pieces of information—sometimes from many, sometimes as several independent queries to one person or system.
+**The `@` marker embedded in operator calls signals an “await point”: an action pending a reply from a specific agent, group, or component.**
+
+------
+
+## Syntax
+
+- Basic: `operator(..., @Target, ...)`
+- Each call with `@Target` is open until that target responds.
+- Works for single or multiple awaits—any mix of parties/queries.
+
+------
+
+## Single-Party, Multi-Request Example
+
+A coach or app initiates a parallel check-in with a client:
+
+```
+textreadiness.sync(@Client, window: 5min)
+intent.verify(@Client)
+boundary.hold(@Client)
+```
+
+All three requests are “pending” for `@Client`.
+
+## Client responds, individually or as a batch:
+
+```
+textsync.readiness(response: "low", @Client)
+verify.intent(response: "clarify goals", @Client)
+hold.boundary(response: "need 45min only", @Client)
+```
+
+Each response closes one “await”; protocol state updates as data arrives.
+
+------
+
+## Multi-Party, Multi-Query Example
+
+Facilitator runs a protocol for two team members:
+
+```
+textreadiness.sync(@Alice)
+intent.verify(@Alice)
+boundary.hold(@Alice)
+readiness.sync(@Bob)
+intent.verify(@Bob)
+```
+
+- Awaiting three responses from Alice and two from Bob.
+- They reply at their own pace; the protocol process is non-blocking.
+
+------
+
+## Mixed/Async Example
+
+For remote or async workflows, await points are tracked in background—
+*e.g., a system polls for status:*
+
+```
+textprogress.track(@Uploader1)
+progress.track(@Uploader2)
+```
+
+When uploaders reply:
+
+```
+texttrack.progress(percent: 40, @Uploader2)
+track.progress(percent: 100, @Uploader1)
+```
+
+Each completion triggers logic as needed.
+
+------
+
+## Why It Matters
+
+- **Full modularity:** Any party/context can receive tailored requests, as many as needed.
+- **Non-blocking:** Inputs can arrive in any order, tracked and processed as soon as they’re available.
+- **Clean traceability:** Nothing gets lost—every request/response is uniquely mapped by its `@`-target.
+
+------
+
+## Best Practice
+
+- Consider batching requests where contexts overlap, but preserve individual tracks for critical protocols.
+- Always log which awaits are open, and finalize every `@` with a clear, matching response.
+- Combine with modifiers and profiles as needed (e.g. `sync.readiness(@Alice, level: deep)`).
+
+------
+
+**The `@`-marker approach is Soulware’s native solution for real-world concurrency, async, and multi-party flows—making protocol both powerful and reliably auditable at all scales.**
 
 ---
 
-### Descriptor Types
+## 6. How to Extend Syntax & Profiles
 
-- **Tempo:**  
-  Controls the pacing and temporal frame of an action.  
-  _Examples: `slow`, `steady`, `brisk`, `urgent`, `pulsed`_
+- Keep syntax simple and consistent—always `subject.verb(args)`
+- Modifiers use plain key-value pairs or flags, no nested complexity
+- Profiles are readable, modular configs—document all defaults
+- Always audit for Mirror Rule consistency and K4 primitive grounding
+- Share extensible templates and invite community feedback
 
-- **Scope:**  
-  Sets the scale at which the operator is being applied.  
-  _Examples: `personal`, `relational`, `systemic`, `universal`_
+------
 
-- **Tone:**  
-  The emotional or affective color of the operator.  
-  _Examples: `warm`, `clinical`, `playful`, `direct`, `reverent`_
+## Closing
 
-- **Polarity:**  
-  Chooses the directional vector of the change.  
-  _Examples: `inviting`, `challenging`, `holding`, `releasing`, `neutral`_
-
-- **Intensity:**  
-  Sets the strength or magnitude of the operator.  
-  _Examples: `light`, `medium`, `deep`, `total`_
-
-- **Focus:**  
-  Filters the primary channel of communication.  
-  _Examples: `emotional`, `logical`, `sensory`, `symbolic`_
-
----
-
-### Example in Practice
-
-The operator `truth.drop()` can be modified in many ways:
-
-- `truth.drop(tone: gentle, scope: personal)`  
-  _A soft, vulnerable sharing._
-
-- `truth.drop(tone: direct, scope: systemic)`  
-  _A firm statement about a group dynamic._
-
----
-
-# Part 2: Syntax Keys (The Logic of Action)
-
-**Syntax Keys** are the structural glue of SoulwareOS.  
-They are the logical combinators that allow you to build simple operators into complex, meaningful "sentences."  
-They make the language programmable and allow for clear, non-coercive branching.
-
----
-
-### Syntax Key Types
-
-- **Conditional Keys:**  
-  Define logic gates for when an operator should run.  
-  _Examples: `if`, `when`, `unless`_  
-  **Example:**  
-  `repair.try if readiness.sync()`  
-  _(Only attempt repair if both parties are ready.)_
-
-- **Sequencing Keys:**  
-  Set the order of operations.  
-  _Examples: `then`, `after`, `before`_  
-  **Example:**  
-  `presence.ping() then dive.invite(depth)`  
-  _(Check for presence before inviting to go deeper.)_
-
-- **Branching Keys:**  
-  Offer alternatives without coercion, creating choice.  
-  _Examples: `or`, `else`, `maybe`_  
-  **Example:**  
-  `seed.marker() or close.loop(soft)`  
-  _(We can either mark this to return to later, or we can close the conversation softly.)_
-
-- **Loop Keys:**  
-  Sustain or repeat an action until a condition changes.  
-  _Examples: `while`, `until`, `again`_  
-  **Example:**  
-  `reflect.send while trust.hold()`  
-  _(Continue to reflect and listen as long as the state of trust is maintained.)_
-
-- **Targeting Keys:**  
-  Direct the scope of an operator to a specific Entity.  
-  _Examples: `.self`, `.other`, `.group`_  
-  **Example:**  
-  `energy.scan.self before presence.ping.other`  
-  _(Scan my own energy before I check on theirs.)_
-
----
-
-By combining these keys, users can construct sophisticated and precise conversational "scripts" that are both effective and safe.
-
+Layer 4 is **your toolkit for composability, context sensitivity, and live protocol design**.
+Master it, and you can build custom Soulware flows for any person, team, or situation—always rooted in the K4 kernel, never locked to rigid scripts.
 ---
 
 © 2025 by Raiziel
