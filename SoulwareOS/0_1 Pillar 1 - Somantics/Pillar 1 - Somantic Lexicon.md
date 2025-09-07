@@ -1,423 +1,173 @@
-# Somantics Lexicon (K4 Integrated)
+## Soulware Somantics Ladder: From Feeling to Transformation
 
-## 1. Chest Tightness + Shallow Breath
+## Introduction: Why Name, Map, and Repair Somantic Signals?
 
-- **K4 Root:** Axiom A3 (Boundedness); Capacity (C) limit on relational Flow (φ).
-- **Inner Operators (with examples):**
-  - `presence.scan`: "What's happening in my body? My chest is tight."
-  - `context.realign`: "What's the context here? Am I just overloaded?"
-  - `breath.reset`: "I'm going to take one slow breath to regulate."
-- **Outer Operators (with examples):**
-  - `presence.ping`: "Can we pause for a moment and check in?"
-  - `boundary.mark`: "I think I'm hitting my capacity limit right now."
-  - `pace.adjust`: "I need to slow this conversation down."
-- **Notes:** Mistaken for "pure anxiety"; usually a load-management cue.
-- **Guardrail:** Do not push past capacity. Acknowledge the limit; pushing can lead to rupture.
+In the Soulware paradigm, every “emotion,” sensation, or state is more than just a label—it’s rich, actionable data. The Somantics Ladder helps users move from raw felt experiences through precise diagnostic operators, to protocol moves that can transform, resolve, or deepen that state. True power comes when people can name where they are, then clearly see the steps to integration or change.
 
----
+------
 
-## 2. Tingling in Limbs + Fast Heart Rate
+## Table 1: Mapping Felt Signals to Diagnostic and Transformative Operators
 
-- **K4 Root:** Approaching a threshold for an Event (Δ) of phase change; excitement (integrate) or fear (differentiate).
-- **Inner Operators:**
-  - `energy.scan`: "What is this energy? Is it excitement or fear?"
-  - `state.identify`: "Let's name it: this is anticipation."
-  - `trust.reseed(self)`: "I trust myself to handle this feeling, whatever it is."
-- **Outer Operators:**
-  - `dive.invite(depth)`: "This feels like a big moment. Do you want to go deeper?"
-  - `share.bridge`: "I'm feeling a real charge around this. Can I share what's coming up for me?"
-- **Notes:** Can be excitement (integrate) or fear (differentiate); **verify, don't assume.**
-- **Guardrail:** Confirm meaning with `consent.check` before proceeding.
+| Felt Signal / Emotion                   | Diagnostic Operators (Describe)                          | Transformative Operators (Act/Repair)                        | K4 Pattern / Notes                      |
+| :-------------------------------------- | :------------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------- |
+| Tight chest, shallow breath ("anxiety") | `energy.deplete()`, `boundary.strain()`, `signal.blur()` | `pause.offer()`, `breath.reset()`, `boundary.hold()`         | System at limit, support restoration    |
+| Foggy mind, can't focus ("confused")    | `context.fray()`, `signal.blur()`, `meaning.split()`     | `context.sync()`, `frame.audit()`, `pause.offer()`           | Ambiguous frame, lack of signal clarity |
+| Restless legs, fidgety ("agitation")    | `energy.surge()`, `action.impulse()`                     | `flow.redirect()`, `microtask.shift()`, `reset.point()`      | Discharge needed, redirect energy       |
+| Blank stare, absence ("shutdown")       | `presence.null()`, `signal.freeze()`, `energy.restore()` | `reset.point()`, `pause.offer()`, `breath.reset()`           | Bandwidth overload, need for reset      |
+| Mixed feelings ("inner conflict")       | `inner.conflict()`, `intent.split()`, `meaning.split()`  | `intent.verify()`, `mapping.align()`, `journaling.process()` | Contradictory states                    |
+| Talking past each other ("misattuned")  | `outer.desync()`, `thread.tangle()`, `context.fray()`    | `context.sync()`, `frame.audit()`, `mirror.throw()`          | Relation misaligned, channel desynced   |
+| Jittery/speeding up ("overclocked")     | `energy.surge()`, `tempo.spike()`, `signal.blur()`       | `tempo.adjust()`, `breath.reset()`, `reset.point()`          | Excess flow, reduce pace                |
+| Numbness/disconnect ("absence")         | `presence.null()`, `signal.freeze()`, `energy.deplete()` | `pause.offer()`, `energy.restore()`, `reset.point()`         | System withdrawn, restore capacity      |
 
----
+------
 
-## 3. Jaw Clenching + Forward Lean
+## Table 2: Operator Reference—Definitions and Best Moves
 
-- **K4 Root:** Attempting to increase Coherence (κ) by strengthening a Relation (ρ).
-- **Inner Operators:**
-  - `friction.name(self)`: "I'm feeling rigid about this. Why am I holding on so tight?"
-  - `truth.touch`: "What's the core truth I'm trying to push forward here?"
-- **Outer Operators:**
-  - `friction.name`: "I'm sensing some friction here. Can we name the disagreement?"
-  - `contrast.map`: "Let's put both our views on the table side-by-side."
-- **Notes:** Indicates narrowed focus; risk of missing alternatives.
-- **Guardrail:** Avoid coercion. Use `contrast.map` to hold both views without collapse.
+| Operator Name       | Definition / Diagnostic                  | Example Protocol / Move              |
+| :------------------ | :--------------------------------------- | :----------------------------------- |
+| `energy.deplete()`  | System running low on energetic capacity | Enact pause, offer restoration       |
+| `boundary.strain()` | Safety/limit is stretched/threatened     | Assert boundary, request break       |
+| `signal.blur()`     | Signal is noisy, hard to parse           | Clarify frame, slow down pace        |
+| `context.fray()`    | Frame is splitting, meanings diverge     | Synchronize context with peers       |
+| `inner.conflict()`  | Multiple contradictory motives           | Verify intent, facilitate journaling |
+| `outer.desync()`    | Mismatch at relational/channel level     | Audit frames, mirror and sync        |
+| `presence.null()`   | Absence, disengagement, or freeze        | Offer reset or gentle reboot         |
+| ...more as needed   | ...                                      | ...                                  |
 
----
+------
 
-## 4. Warm Face + Rapid Speech
+## Using the Ladder: Finding Your Way
 
-- **K4 Root:** High-energy Flow (φ) risks Entropy (A1) as signal loses Coherence (κ).
-- **Inner Operators:**
-  - `tempo.adjust`: "I'm talking too fast. I need to slow down and breathe."
-  - `clarity.enforce`: "What's the one point I'm trying to make?"
-- **Outer Operators:**
-  - `pace.adjust`: "Am I talking too fast for you?"
-  - `context.sync`: "Let's make sure we're on the same page."
-- **Notes:** Can be enthusiasm or defense.
-- **Guardrail:** Prioritize clarity over speed; use `context.sync` to prevent drift.
+1. **Scan your felt experience or group sense—name with traditional language (e.g. "anxious", "confused", "offline").**
+2. **Find the closest diagnostic operator—this gives clear semantics for what's really happening.**
+3. **Reference the suggested transformative operators—pick one that feels actionable or resonant.**
+4. **Practice, experiment, and adapt—Soulware is modular; you can adjust combinations for your context.**
 
 ---
 
-## 5. Gut Tightness + Urge to Withdraw
+## How to Extend the Ladder
 
-- **K4 Root:** Axiom A3 (Boundedness); need to cut Relation (ρ) to protect Capacity (C).
-- **Inner Operators:**
-  - `boundary.hold`: "This doesn't feel right. I need to hold my boundary."
-  - `energy.restore`: "I need to pull back and recharge."
-- **Outer Operators:**
-  - `consent.check`: "Can we stop here for now?"
-  - `reset.point`: "Let's pause and come back later."
-- **Notes:** Can be a healthy pause or unhealthy avoidance.
-- **Guardrail:** Respect withdrawal. A "no" is a valid response.
+Soulware grows as our lived experience grows.
+**To extend this ladder:**
 
----
+- When you notice a new or recurring felt signal, map it to the nearest traditional label and describe it objectively (body, mind, or relational field).
+- Identify or invent a precise diagnostic operator that captures the root pattern (e.g. `signal.fray()`, `energy.spike()`, `context.scramble()`).
+- Propose (or note) one or more transformative operators—moves or protocols that have worked for you or your group to repair, integrate, or deepen.
+- Add these to your table, and share with the community so others can build on your clarity.
+- Operators should be **modular, transparent, and grounded in real signals**—only add what clarifies, not what complicates.
 
-## 6. Shoulders Up + Neck Tension
+*In this way, every user becomes a co-creator, steadily evolving the language as reality demands.*
 
-- **K4 Root:** Over-allocating Capacity (C) to scan for negative Flow (φ).
-- **Inner Operators:**
-  - `energy.scan`: "Why am I so tense? What threat am I anticipating?"
-  - `noise.filter`: "I need to filter out the noise."
-- **Outer Operators:**
-  - `context.simplify`: "Can we simplify this? What's the core issue?"
-  - `task.defer`: "This might be too much right now. Can we defer this?"
-- **Notes:** Over-priming for perceived threat.
-- **Guardrail:** Do not add pressure. Focus on simplifying, not more demands.
+------
 
----
+## Scan and Use: Quick Start
 
-## 7. Hands Fidgeting + Leg Bounce
+1. **Notice:** Pause and sense into your current body, mood, or relational field.
+2. **Name:** Use the table to match your felt experience to a signal or emotion that resonates.
+3. **Diagnose:** Check the related diagnostic operator(s) to get clear on the root pattern.
+4. **Act:** Try a suggested transformative operator—directly, or adapted for your context.
+5. **Reflect:** If nothing fits, invent or refine an operator!
+   Soulware is meant to be lived, not memorized.
 
-- **K4 Root:** Discharging excess energy that's not channeled into coherent Flow (φ).
-- **Inner Operators:**
-  - `flow.redirect`: "How can I channel this restless energy productively?"
-  - `microtask.shift`: "Let me shift focus to a small task."
-- **Outer Operators:**
-  - `pace.adjust`: "Energy here is scattered. Should we take a break?"
-  - `offer.change`: "Would it help to stand up and move?"
-- **Notes:** Movement as discharge; can be used intentionally.
-- **Guardrail:** Channel, don't suppress. Find a constructive outlet.
+*In one glance, you can move from raw sensation to clarity, and from confusion to agency—step by step.*
 
 ---
 
-## 8. Deep Sigh + Slumping Posture
+## K4 Foundations and the Somantics Ladder
 
-- **K4 Root:** Release of stored Potential (Π); transition of State (σ).
-- **Inner Operators:**
-  - `energy.restore`: "Letting go. Time to rest."
-  - `state.log`: "Noting this feeling of completion."
-- **Outer Operators:**
-  - `reset.point`: "That felt like a release. Good stopping point?"
-  - `close.loop(soft)`: "I feel complete on this for now."
-- **Notes:** Can be completion cue or surrender.
-- **Guardrail:** Allow completion. Respect need for rest.
+## Mapping Somantic Signals to K4
 
----
+Every body-state or “felt signal” in Soulware is a live reading of the K4 kernel.
 
-## 9. Tight Throat + Avoiding Eye Contact
+- **Entity (E):** Where/what in the system is sensing—self, boundary, presence.
+- **State (σ):** How full, tense, clear, or coherent the inner world is.
+- **Relation (ρ):** What’s happening between self and other—attunement, drift, alignment, or friction.
+- **Flow (φ):** The movement, pace, or rhythm of sensation or interaction—calm, surge, block, overwhelm.
 
-- **K4 Root:** Actively restricting Flow (φ) to enforce Axiom A3 (Boundedness) and protect internal State (σ).
-- **Inner Operators:**
-  - `boundary.mark`: "This feels unsafe. I need to mark this as a boundary for myself."
-  - `trust.reseed(self)`: "I need to focus on what helps me feel safe right now."
-- **Outer Operators:**
-  - `consent.check`: "I'm not comfortable continuing down this path. Can we stop?"
-  - `seed.marker`: "This is important, but I can't discuss it right now. Can we mark it to discuss later?"
-- **Notes:** Emotional safety boundary is engaged.
-- **Guardrail:** Do not force connection. Pushing past this is a violation.
+As you diagnose and act, **note which K4 primitive(s) are active** in each signal. New operators should always clarify and map to these fundamentals:
 
----
+- “Restlessness” = a surge in Flow (φ), seeking outlet.
+- “Tightness” = a State (σ) at Entropy/Capacity, invoking Boundedness (Axiom A3).
+- “Numbness” = collapse or realignment in Relation (ρ) or Entity (E).
+- “Mixed feelings” = competing States (σ) or Relations (ρ), challenging Coherence (κ).
 
-## 10. Slow Blink + Relaxed Breathing
+------
 
-- **K4 Root:** High Coherence (κ) via integrate(S) operator.
-- **Inner Operators:**
-  - `presence.hold`: "This is a good feeling. I'm just going to be present with it."
-  - `meaning.trace`: "What led to this moment of clarity? Let me trace the path."
-- **Outer Operators:**
-  - `cohere.hold(ε)`: "Let's stay in this space for a moment. What we've built here is good."
-  - `reflect.send`: "It feels like we're really in sync right now."
-- **Notes:** Integration phase; time to deepen or rest.
-- **Guardrail:** Protect the coherence. Avoid disruptive Flow.
+## The Somantic Vector: Multidimensional K4 Map
 
----
+Every felt experience can be plotted along six core axes, each rooted in the K4 model:
 
-## 11. Sharp Inhale + Stillness
+- **Arousal (Low ↔ High):** Energy level (Flow φ).
+- **Valence (Unpleasant ↔ Pleasant):** Coherence (κ) or Entropy in State (σ).
+- **Constriction ↔ Expansion:** Boundedness (A3), relates to State (σ) and Potential (Π).
+- **Rhythm (Chaotic ↔ Coherent):** Flow’s (φ) temporal pattern, Axiom A1 (Entropy).
+- **Localization (Diffuse ↔ Specific):** Where the signal lives (Entity E or State σ).
+- **Orientation (Withdraw ↔ Approach):** Relational vector (ρ), guardedness or openness.
 
-- **K4 Root:** Pausing Flow (φ) to assess State (σ) of Relations (ρ).
-- **Inner Operators:**
-  - `context.scan`: "Whoa. What just happened? Need to scan the situation."
-  - `risk.assess`: "Is there a threat? What's the risk here?"
-- **Outer Operators:**
-  - `presence.ping`: "Hold on a second. Did you feel that shift too?"
-  - `friction.name`: "Something just landed badly. Can we name what it was?"
-- **Notes:** Microfreeze before rapid action.
-- **Guardrail:** Freeze, don’t act. Pause and gather info.
+------
 
----
+## Channels of Sensation: Practical K4 Checklist
 
-## 12. Laugh Burst + Eye Contact
+When using `presence.scan(self)` or checking in as a team, look for:
 
-- **K4 Root:** Rapid integrate(S) event, maximizes Coherence (κ) and strengthens Relation (ρ).
-- **Inner Operators:**
-  - `meaning.trace`: "That was great. What made that joke land perfectly?"
-  - `pattern.embed`: "I want to remember this feeling of connection."
-- **Outer Operators:**
-  - `share.bridge`: "That was a great moment between us."
-  - `cohere.hold(ε)`: "I'm really enjoying this connection right now."
-- **Notes:** Reinforces relational capital.
-- **Guardrail:** Share the moment; acknowledge and reinforce.
+- **Tension/Release (σ, φ):** Are muscles/fascia guarded or open?
+- **Thermal (σ):** Are you warm, cool, or flushed?
+- **Spatial (E, ρ):** Is there internal spaciousness or compression?
+- **Kinetic (φ, E):** Stillness, fidget, pacing.
+- **Rhythmic (φ):** Breath and pulse coherence.
+- **Texture (σ):** Is the feeling sharp, dull, buzzing, smooth?
 
----
+**Each is an entry-point to a matched operator and protocol.**
 
-## 13. Clenched Fists + Flared Nostrils
+------
 
-- **K4 Root:** Preparing for differentiate(S) event (conflict) in response to perceived hostile Flow (φ).
-- **Inner Operators:**
-  - `friction.name(self)`: "I'm feeling intense opposition right now. This is a clear 'no' for me."
-  - `energy.redirect`: "How can I express this anger constructively?"
-- **Outer Operators:**
-  - `friction.name`: "I'm feeling conflict. We need to address this directly."
-  - `consent.check`: "This is escalating. Are you willing to de-escalate with me?"
-- **Notes:** Physical cue for strong disagreement.
-- **Guardrail:** De-escalate first. Check for consent to engage.
+## Note on Asynchronous Flows
+
+The Somantic framework assumes live, embodied (synchronous) communication as its richest source of real-time data. But in asynchronous contexts—text, email, recorded video—this layer is less perceptible and must be **actively simulated and checked for**.
+
+**Operator Suggestions for Asynchronous Communication:**
+
+- Use `presence.ping()` or `context.check()` to initiate threads, set mood, or “arrive.”
+- Insert `intent.verify()` or `context.sync()` throughout long exchanges to clarify meaning or alignment.
+- Deploy `pause.offer()` when tone feels “off”—invite others to take space or reflect before replying.
+- Explicitly declare limits or needs with `boundary.hold()`, `energy.deplete()`, `reset.point()`.
+- Use `return.path()` or `thread.close()` to end exchanges clearly, so no one is left “dangling.”
+- Invent new operators as needed: `reflect.delayed()`, `consent.wait()`, `frame.cache()`, etc.
+
+**Pro Tip:** In async, be twice as explicit about “checking in” (emotion, state, intent) and “closing out” (loops, boundaries).
+
+------
+
+## Grounding in Biological Systems
+
+To keep your protocols true to reality, regularly connect the diagnostic operators and signals to observable biological markers:
+
+- **Activation states:** Are you “rested,” “activated,” “overclocked,” or “depleted”?
+- **Breath:** Is it flowing, shallow, held, or surging?
+- **Circulation:** Cool, warm, or flushed?
+- **Micro-motor signals:** Are you still, fidgety, orienting, or withdrawing?
+
+**Always seek physical or observable phenomena to anchor protocol and self-report.**
 
 ---
 
-## 14. Sweaty Palms + Dry Mouth
+## The Operator Mirror-Rule of Somantic Channels
 
-- **K4 Root:** Anticipating a high-stakes Event (Δ) where Coherence (κ) is at risk.
-- **Inner Operators:**
-  - `state.identify`: "This is anxiety. I'm anticipating a high-stakes moment."
-  - `energy.scan`: "Do I have the resources to handle this right now?"
-- **Outer Operators:**
-  - `context.sync`: "This feels like a really important moment. Are we on the same page?"
-  - `trust.reseed`: "I'm nervous. Can we acknowledge we're in this together?"
-- **Notes:** Anticipatory tension; prepare for grounding.
-- **Guardrail:** Build safety first. Use `trust.reseed` before proceeding.
+In Soulware, The Operator Mirror Rule says, that for every Operator expressed, there is a mirror Operator recieved. The Somantic framework is no different, every body-signal or felt experience is both **emitted** and **received**:
 
----
+- **Expressive (initiated):** The body acts—`deplete.energy()` (fatigue, shutdown), `surge.energy()` (activation, jitters), `strain.boundary()` (overload).
+- **Receptive (registered):** The system (you, or other) receives and processes—`energy.deplete()` (low bandwidth), `energy.surge()` (excess flow), `boundary.strain()` (capacity limit reached).
 
-## 15. Steady Gaze + Upright Posture
+**Acknowledging and naming this polarity keeps somantic channels alive and reciprocal.**
+The “mirror-rule” means that no signal is complete until both the sender (In this case, body) and the receiver (awareness/system/protocol) process and reflect it—making real repair, support, and evolution possible.
+This is the heartbeat of embodied Soulware practice: a true, trackable conversation between lived experience and system response.
 
-- **K4 Root:** Projecting stable State (σ) with high Coherence (κ); readiness to guide Flow (φ).
-- **Inner Operators:**
-  - `truth.touch`: "I'm clear on my position and ready to state it."
-  - `goal.align`: "What is my goal here? I need to align with it."
-- **Outer Operators:**
-  - `share.bridge`: "I have a clear perspective I'd like to share."
-  - `goal.align`: "Let's align on our shared goal before proceeding."
-- **Notes:** Postural confidence; often contagious.
-- **Guardrail:** Lead with invitation, not authority.
+------
 
----
+## Closing: Why This Matters
 
-## 16. Tilted Head + Soft Eyes
-
-- **K4 Root:** Opening Relations (ρ) to receive Flow (φ) with minimal distortion.
-- **Inner Operators:**
-  - `meaning.trace`: "I'm listening deeply now, tracing meaning behind the words."
-  - `presence.hold`: "I'm just going to hold presence and receive."
-- **Outer Operators:**
-  - `presence.ping`: "I'm here with you. Please continue."
-  - `share.bridge`: "Tell me more."
-- **Notes:** High receptivity cue.
-- **Guardrail:** Honor the opening. Respond with clean, respectful Flow.
-
----
-
-## 17. Pacing + Scanning Environment
-
-- **K4 Root:** Physically increasing sensory input to better map external State (σ).
-- **Inner Operators:**
-  - `context.scan`: "I need to think this through. Processing environment."
-  - `pattern.notice`: "Looking for a pattern or solution I’m missing."
-- **Outer Operators:**
-  - `topic.pivot`: "I need a moment to think. Can we pivot to something else?"
-  - `offer.change`: "Would you mind if I walked around while we talk?"
-- **Notes:** Physical thinking aid.
-- **Guardrail:** Provide space, not pressure. Offer a pause.
-
----
-
-## 18. Slow Nods + Minimal Speech
-
-- **K4 Root:** Running integrate(S) operator; processing incoming Flow (φ), increasing internal Coherence (κ).
-- **Inner Operators:**
-  - `pattern.embed`: "Yes, that makes sense. I'm embedding this new understanding."
-  - `meaning.trace`: "I'm following the logic."
-- **Outer Operators:**
-  - `reflect.send`: "So what I'm hearing is... Does that sound right?"
-  - `cohere.hold(ε)`: "Yes. I agree with that."
-- **Notes:** Shows agreement and processing.
-- **Guardrail:** Confirm, don’t assume. Use `reflect.send`.
-
----
-
-## 19. Brow Furrow + Chin Rub
-
-- **K4 Root:** Running internal transform(E, f) to reconcile Flow (φ) with current State (σ).
-- **Inner Operators:**
-  - `context.realign`: "That doesn’t fit with what I thought. Realigning."
-  - `map.overview`: "Need a bigger picture."
-- **Outer Operators:**
-  - `context.sync`: "Can you explain that differently? I'm trying to fit it in."
-  - `term.define`: "Can we define that term? We might mean different things."
-- **Notes:** Information-integration moment.
-- **Guardrail:** Clarify, don’t push. Offer clarification.
-
----
-
-## 20. Smiling with Shoulders Dropped
-
-- **K4 Root:** integrate(S) event completed; strengthened Relation (ρ), raised Coherence (κ).
-- **Inner Operators:**
-  - `trust.reseed(self)`: "This feels good and safe. I can relax."
-  - `energy.restore`: "This connection is restorative."
-- **Outer Operators:**
-  - `trust.reseed`: "I really appreciate you."
-  - `share.bridge`: "I feel really connected to you now."
-- **Notes:** Relaxation and connection.
-- **Guardrail:** Acknowledge the connection. Reinforce the bond.
-
----
-
-## 21. Feet Pointed Toward Exit
-
-- **K4 Root:** Aligning for differentiate(S) event; severing Relation (ρ), per Axiom A3 (Boundedness).
-- **Inner Operators:**
-  - `boundary.hold`: "I need to get out of this conversation."
-  - `plan.exit`: "What's the cleanest way to exit?"
-- **Outer Operators:**
-  - `consent.check`: "I need to leave soon. Is this a good place to pause?"
-  - `close.loop(soft)`: "Can we wrap this up for today?"
-- **Notes:** Physical pre-leaving cue.
-- **Guardrail:** Enable a clean exit. Do not block the path.
-
----
-
-## 22. Light Touch to Self (Neck/Arm)
-
-- **K4 Root:** Internal transform(E, f) to regulate State (σ), restore Coherence (κ).
-- **Inner Operators:**
-  - `energy.restore`: "This is stressful. Self-soothing for a moment."
-  - `trust.reseed(self)`: "I need to remind myself I'm okay."
-- **Outer Operators:**
-  - `offer.change`: "This is intense. Can we shift to a lighter topic?"
-  - `presence.ping`: "Checking in, this is a bit vulnerable for me."
-- **Notes:** May signal vulnerability.
-- **Guardrail:** Offer safety, not a solution. Reduce pressure.
-
----
-
-## 23. Repeated Head Shakes + Sigh
-
-- **K4 Root:** Rejection of incoming Flow (φ); cannot integrate with internal State (σ).
-- **Inner Operators:**
-  - `friction.name(self)`: "That's a hard no. It doesn't align."
-  - `truth.touch`: "What’s the core truth for my rejection?"
-- **Outer Operators:**
-  - `friction.name`: "No, I don't see it that way. Fundamental disagreement."
-  - `contrast.map`: "My perspective is different. It's X, not Y."
-- **Notes:** Cognitive or emotional block.
-- **Guardrail:** Respect the "no." Acknowledge the friction.
-
----
-
-## 24. Light Laugh + Head Tilt Away
-
-- **K4 Root:** transform(E, f) to reduce Flow (φ) intensity across Relation (ρ).
-- **Inner Operators:**
-  - `context.realign`: "Getting too serious. Let me lighten the mood."
-  - `state.identify`: "Am I deflecting because I’m uncomfortable or being playful?"
-- **Outer Operators:**
-  - `consent.check`: "Is it okay if we keep this light?"
-  - `friction.name`: "Sensing tension, trying to ease it."
-- **Notes:** Can be play or avoidance.
-- **Guardrail:** Check for consent. Clarify the intent.
-
----
-
-## 25. Blank Stare + Delayed Response
-
-- **K4 Root:** Capacity (C) to process Flow (φ) exceeded, per Axiom A3 (Boundedness).
-- **Inner Operators:**
-  - `context.scan`: "I've lost the thread. I need to re-scan the context."
-  - `energy.restore`: "Brain shut down. Let it reboot."
-- **Outer Operators:**
-  - `reset.point`: "Sorry, I just blanked out. Can you repeat?"
-  - `topic.pivot`: "Bandwidth shot for this topic. Can we switch?"
-- **Notes:** Often bandwidth overload, not disinterest.
-- **Guardrail:** Stop sending data. Pause or change topic.
-
----
-
-# Somantics Null States Table (K4 Integrated)
-
-## 1. No tension / low activation
-
-- **K4 Root:** Stable State (σ) with high Coherence (κ), low Potential (Π).
-- **Inner Operators:**
-  - `presence.check(self)`: "Am I feeling safe and rested, or just disconnected?" 
-- **Outer Operators:**
-  - `presence.ping`: "I'm noticing calm between us. How are you feeling?"
-- **Guardrail:** Absence is not consent. Calm ≠ agreement/readiness.
-
----
-
-## 2. No noticeable breath shift
-
-- **K4 Root:** Steady-state Relation (ρ) where the Flow (φ) is not creating internal perturbations.
-- **Inner Operators:**
-  - `stance.align`: "Is my breathing steady because I'm aligned, or because I'm holding back?"
-- **Outer Operators:**
-  - `intent.verify`: "It feels like we're on the same page. Does that feel true for you?"
-- **Guardrail:** Verify alignment explicitly. Do not assume a lack of reaction means agreement.
-
----
-
-## 3. No change in heart rate
-
-- **K4 Root:** Relation (ρ) has low coupling; feedback in the Flow (φ) is insufficient to alter the State (σ).
-- **Inner Operators:**
-  - `energy.scan`: "Am I feeling calm, or am I just not connecting with this topic?"
-- **Outer Operators:**
-  - `mirror.throw`: "I'm not getting a strong read. Where are you at with this?"
-- **Guardrail:** Do not force emotional engagement. A low-arousal state is valid and must be respected.
-
----
-
-## 4. No urge to move / stillness
-
-- **K4 Root:** The Entity is not near a threshold for an Event (Δ); the system is stable within Axiom A3 (Boundedness).
-- **Inner Operators:**
-  - `self.trace`: "Is this a state of deep focus I should hold, or am I stuck?"
-- **Outer Operators:**
-  - `pause.offer`: "Should we hold this space for a moment, or are you ready to move on?"
-- **Guardrail:** Stillness requires consent to change. Before shifting from a still state, use `pause.offer` to verify readiness.
-
----
-
-## 5. No facial movement / blankness
-
-- **K4 Root:** The Entity is not emitting a clear signal in its Flow (φ), possibly to conserve Capacity (C).
-- **Inner Operators:**
-  - `truth.touch`: "Am I resting, or am I masking my true state?"
-- **Outer Operators:**
-  - `share.bridge`: "I can't read your expression. Can you share what's happening for you?"
-- **Guardrail:** Invite, don't demand. A blank expression is a boundary. You can invite sharing, but you cannot demand to know what is behind it.
-
----
-
-## 6. No sensory variance
-
-- **K4 Root:** The Entity is restricting sensory Flow (φ), either due to external Entropy or a deep internal integrate(S) process.
-- **Inner Operators:**
-  - `energy.scan`: "Am I in a healthy flow state, or am I shutting down from overwhelm?"
-- **Outer Operators:**
-  - `consent.check`: "It seems like you're really focused. Do you need some space right now?"
-- **Guardrail:** Protect the state. Whether it's a flow state or a shutdown, the correct action is to reduce external input and offer space.
+By moving from generic feelings to actionable operators, users gain new agency for repair, coherence, and learning. The Somantics Ladder is a foundation anyone can build on—growing the language as needed, always staying close to real, lived signal and effective protocol.
+*Soulware isn’t just a set of words—it’s a living map from sensation to transformation.*
 
 ---
 
