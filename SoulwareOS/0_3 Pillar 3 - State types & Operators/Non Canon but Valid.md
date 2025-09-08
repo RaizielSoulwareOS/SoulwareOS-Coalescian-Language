@@ -1,7 +1,3 @@
-Here is the reformatted version of your document, "The Master Operator List v1.0."
-
------
-
 # Non-Canon but Valid Operator Usage
 
 Hold onto your brain-bits. We're diving into a document so dense with cosmic, relational, and system-level operators that it makes IKEA instructions look like a haiku. Let's get weird with it.
