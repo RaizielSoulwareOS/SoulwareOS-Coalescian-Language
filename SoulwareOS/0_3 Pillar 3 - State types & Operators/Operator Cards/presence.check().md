@@ -11,63 +11,87 @@
 presence.check(@target?, scope?, mode?)
 ```
 
-- **@target** (optional) — entity/group to verify, or self if omitted
-- **scope** — context (session, conversation, room, internal_state)
-- **mode** — check style (explicit, silent, heartbeat, scan)
+- **@target** (optional) — entity or group to verify
+   Default: self
+- **scope** (optional) — context of the check (session, conversation, room, internal_state)
+   Default: current active context
+- **mode** (optional) — style of presence verification (explicit, silent, heartbeat, scan)
+   Default: explicit
 
 ## Returns
 
 - **Δ event:** `{ kind: presence_check }`
 - **κ (Coherence):** +0.1 if confirmed, -0.2 if absent
 - **Π (Potential):** maintained or +0.1 when clarity strengthens system
-- **C (Capacity):** neutral or +0.1 through state awareness
+- **C (Capacity):** neutral or +0.1 if increased state awareness frees attention
 
 ## Use Cases
 
 - Verify if others are available for coordination
-- Self-scan for your own presence level before engaging
-- Detect system dropout or distraction
-- Initialize any meaningful interaction
+- Self-scan for personal presence level before engaging
+- Detect system dropout or drifting attention
+- Initialize any meaningful interaction or protocol
+
+> **Related operators:**
+>  Often the first step in a sequence with consent.check() → stance.declare() → repair.try()
 
 ------
 
-# ✦ Mirror Operator: check.presence()
+## ✦ Mirror Operator — Receptive Form
 
-**Function:** Report findings of presence verification
+**check.presence()** — The inward-facing reflection of presence.check(),
+ designed to report and integrate findings from a presence verification.
 
-**Syntax:** `check.presence(status?, energy?, distractions?, availability?, insights?)`
+### Syntax
+
+```
+check.presence(status?, energy?, distractions?, availability?, insights?)
+```
 
 - **status** — presence quality (fully_here, partial, absent, distracted)
-- **energy** — current capacity level (high, moderate, low, depleted)
+- **energy** — current capacity (high, moderate, low, depleted)
 - **distractions** — competing attention demands
 - **availability** — time/focus window available
-- **insights** — what the check revealed about presence patterns
+- **insights** — patterns or meta-notes from the check
 
-**Example Response:**
+### Example Response
 
 ```
-check.presence(status: "partial", energy: "moderate", distractions: "worried_about_deadline", availability: "20min_focused_then_need_break", insights: "stress_affecting_attention_quality")
+check.presence(
+  status: "partial",
+  energy: "moderate", 
+  distractions: "worried_about_deadline",
+  availability: "20min_focused_then_break",
+  insights: "stress_affecting_attention_quality"
+)
 ```
 
 ------
 
-# ✦ Contemplation Cards
+## ✦ Contemplation Cards
 
-## presence_check() — Contemplating Presence Itself
+### presence_check() — Contemplating Presence Itself
 
-**Essence:** What does it mean for anyone to be present?
+**Essence:** To ask "Are you here?" is to begin with recognition.
 
-Exploring the nature of presence across contexts and beings. What constitutes authentic presence vs performed presence? How does presence vary across different types of interaction? What are the conditions that support or undermine presence?
+**Inquiry:** Is presence binary or a spectrum? How does digital presence differ from embodied presence?
 
-**Philosophical exploration:** Is presence binary or spectrum? How does digital presence relate to embodied presence? What's the relationship between attention, intention, and presence?
+**Fieldwork:** Explore conditions that deepen presence (shared breath, silence, mutual intention).
 
-## check_presence() — Processing Presence Discoveries
+### check_presence() — Processing Presence Discoveries
 
-**Essence:** What meaning emerged from that presence verification?
+**Essence:** What meaning emerged from the verification?
 
-Reflecting on what a specific presence check revealed—about individuals, relationships, system health, or presence patterns. Integrating insights about how presence affects coordination, connection, and collective capacity.
+**Integration Questions:**
 
-**Integration questions:** What did we learn about our presence patterns? How does presence quality affect our coordination? What conditions support higher presence for this person/team?
+- What did we learn about our presence patterns?
+- How does presence quality shape coordination and trust?
+- Which conditions consistently support higher presence?
+
+------
+
+*presence.check() is more than a ping; it is the ritual of arrival.*
+ *Its mirror, check.presence(), is the quiet art of receiving and interpreting that arrival.*
 
 ------
 
